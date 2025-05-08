@@ -24,6 +24,9 @@ uv version
 
 
 
+
+
+
 ## 🚀 Setting Up a FastAPI Project with UV
 
 ### 📁 Step 1: Create a Project Directory and Switch to it:
@@ -32,11 +35,13 @@ uv init 02_Fastapi
 cd 02_Fastapi
 ```
 
+
 #### 🧪 Create & Activate Virtual Environment:
 ```
 uv venv
 .venv\Scripts\activate
 ```
+
 
 #### 📦 Add Project Dependencies:
 
@@ -44,6 +49,7 @@ Install FastAPI and its standard extras:
 ```
 uv add "fastapi[standard]"
 ```
+
 
 Add development dependencies:
 ```
@@ -63,6 +69,7 @@ Use the following command to start your development server
 ```
 fastapi dev main.py
 ```
+
 
 #### 🌐 Test Your APIs
 Open in browser:
